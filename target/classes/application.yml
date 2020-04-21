@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ceshi
+eureka:
+  instance:
+    prefer-ip-address: true
+#    appname: ceshi2
+#    app-group-name: ce
+  client:
+    service-url:
+      defaultZone: http://172.18.15.100:10010/eureka
+    fetch-registry: true
